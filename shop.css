@@ -1,0 +1,96 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #F7F3EC;
+    color: #292929;
+    text-align: center;
+}
+
+h1 {
+    background-color: #171717;
+    color: #D4AF75;
+    padding: 25px;
+    margin: 0;
+}
+
+.menu {
+    background-color: #292929;
+    padding: 18px;
+}
+
+.menu a {
+    color: #F7F3EC;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.menu a:hover {
+    color: #D4AF75;
+}
+
+#home {
+    background-color: #EAE1D2;
+    padding: 35px;
+}
+
+h2 {
+    color: #75552F;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: white;
+    width: 220px;
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid #D9C7A5;
+}
+
+.product img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.product h3 {
+    color: #292929;
+}
+
+.product p {
+    color: #75552F;
+}
+
+button {
+    background-color: #171717;
+    color: #D4AF75;
+    padding: 11px 22px;
+    border: 1px solid #D4AF75;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #D4AF75;
+    color: #171717;
+}
+
+#about {
+    background-color: #EEE5D7;
+    padding: 25px;
+}
+
+#contact {
+    background-color: #F7F3EC;
+    padding: 25px;
+}
+
+footer {
+    background-color: #171717;
+    color: #D4AF75;
+    padding: 15px;
+}

@@ -1,0 +1,73 @@
+
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+h1 {
+    background-color: darkblue;
+    color: white;
+    padding: 25px;
+    margin: 0;
+}
+
+.menu {
+    background-color: black;
+    padding: 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+.menu a:hover {
+    color: yellow;
+}
+
+#home {
+    background-color: lightblue;
+    padding: 30px;
+}
+
+h2 {
+    color: darkblue;
+}
+
+.places {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.place {
+    background-color: white;
+    width: 250px;
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+.place img {
+    width: 100%;
+    height: 160px;
+}
+
+#about {
+    background-color: lightyellow;
+    padding: 25px;
+}
+
+#contact {
+    background-color: lightblue;
+    padding: 25px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
